@@ -12,6 +12,7 @@ html,body{
 }
 .logo{
     display: inline-block;
+    margin-left: 136px;
 }
 .a-logo{
     text-decoration: none;
@@ -31,9 +32,12 @@ html,body{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    
 }
 .login{
     display: inline-block;
+    margin-right: 143px;
+    
     
 }
 .a-login{
@@ -41,6 +45,7 @@ html,body{
     font-size: 14px;
     color: #ffffff;
     margin: 45px;
+    
 }
 .become-member-button{
     width: 220px;
@@ -96,4 +101,337 @@ html,body{
     margin-left: 5px;
     
     
+}
+
+
+
+/*----------------features-------------*/
+
+
+
+
+.features{
+    width: 100%;
+    height: 435px;
+    background-color: #252B42;
+    text-align: center;
+}
+.features-box{
+    width: 1050px;
+    height: 435.29px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+.features-cards{
+    width: 1046px;
+    height: 243.29px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.card-1{
+    width: 325px;
+    height: 243.29px;
+}
+.h1-card{
+    color: #ffffff;
+    margin-top: 34px;
+}
+.p-card{
+    color: #ffffff;
+    margin-top: 17px;
+}
+
+
+
+/*----------------industry-------------*/
+
+.industry{
+    background-color: #8EC2F2;
+}
+.industry-box{
+    width: 1137px;
+    height: 772px;
+    margin: auto;
+
+}
+.title-industry{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    padding-top: 112px;
+}
+.p-title-industry-desc{
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+}
+.industry-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    
+}
+.industry-card-content-txt{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.industry-card-content{
+    display: inline-block;
+    background-color: #ffffff;
+    width: 450px;
+    height: 288.01px;
+    position: relative;
+}
+.h1-name{
+    font-size: 24px;
+    color: #252B42;
+}
+.p-special{
+    font-size: 14px;
+    color: #737373;
+    margin-top: 15px;
+}
+.star-icon{
+    margin-top: 15px;
+}
+.p-industry-card-content{
+    color: #737373;
+    margin-top: 15px;
+}
+.card-avatar{
+    position: absolute;
+    left: -40px;
+    top: 20px;
+}
+
+
+/*----------------industry2-------------*/
+
+
+
+.industry2{
+    background-color: #252B42;
+    position: relative;
+}
+.industry2-box{
+    width: 100%;
+    height: 879px;
+    margin: auto;
+
+}
+.title-industry2{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    padding-top: 112px;
+}
+.p-title-industry2-desc{
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+}
+.industry2-card{
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+}
+.industry-card-images{
+    width: 331px;
+    height: 452px;
+    position: relative;
+}
+.description-image-industry{
+    position: absolute;
+    bottom: 213px;
+    margin-left: 20px;
+}
+
+.h1-name2{
+    font-size: 14px;
+    color: #ffffff;
+
+}
+.p-industry2-card-content{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.button-on-images-industry-card{
+    width: 165px;
+    height: 42px;
+    background: #23A6F0;
+    border-radius: 37px;
+    border: none;
+    margin-top: 15px;
+}
+
+
+/*----------------pricing-------------*/
+
+.pricing{
+    background-color: #252B42;
+    position: relative;
+}
+.pricing-box{
+    width: 100%;
+    height: 1155px;
+    margin: auto;
+
+}
+.title-pricing{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    padding-top: 112px;
+}
+.p-title-pricing-desc{
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.pricing-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.pricing-card-content{
+    width: 327px;
+    height: 744px;
+    background-color: #ffffff;
+    margin: 0px 15px 0px 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+}
+.h1-name2{
+    font-size: 24px;
+    color: #252B42;
+    margin-top: 50px;
+}
+.p-pricing-card-content{
+    font-size: 16px;
+    color: #737373;
+    margin-top: 35px;
+}
+.cost{
+    font-size: 40px;
+    color: #23A6F0;
+    margin-top: 35px;
+}
+.p-month{
+    font-size: 16px;
+    color: #8EC2F2;
+    
+}
+.button-on-images-price-card{
+    height: 52px;
+    width: 246px;
+    margin-top: 35px;
+    background: #23A6F0;
+    border-radius: 5px;
+    border: none;
+    
+}
+.price-images{
+    margin-top: 36px;
+    
+}
+.new-icon{
+    position: absolute;
+    top: -30px;
+    right: 20px;
+}
+
+/*----------------contact-------------*/
+.contact{
+    background-image: url("../images/contact-cover.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 670px;
+    width: 100%;
+    
+    
+    
+}
+.contact-box{
+    width: 1050px;
+    height: 670px;
+    margin: 0px auto 0px auto;
+    
+    
+    
+}
+.input-name{
+    width: 296px;
+    height: 50px;
+    margin-right: 20px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    
+}
+.input-email{
+    width: 296px;
+    height: 50px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+}
+.choose-country{
+    width: 302px;
+    height: 50px;
+    margin-right: 20px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+}
+.choose-country2{
+    width: 302px;
+    height: 50px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    
+}
+.subject-box{
+    width: 625px;
+    height: 140px;
+    margin-top: 20px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+
+}
+.h2-contact{
+    padding-top: 90px;
+    font-size: 16px;
+    color: #252B42;
+    
+}
+.h1-contact{
+    margin-top: 5px;
+    font-size: 40px;
+    color: #252B42;
+}
+.button-submit{
+    width: 224px;
+    height: 52px;
+    background: #23A6F0;
+    border-radius: 5px;
+    border: none;
+    margin-top: 40px;
+    color: #ffffff;
+}
+.input-boxs{
+    margin-top: 40px;
+}
+.choose-boxs{
+    margin-top: 20px;
 }
