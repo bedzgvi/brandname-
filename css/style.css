@@ -8,6 +8,7 @@ html,body{
     background-size: cover;
     position: relative;
     height: 640px;
+    width: 100%;
     
 }
 .logo{
@@ -18,14 +19,29 @@ html,body{
     text-decoration: none;
     font-size: 24px;
     color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
     
+}
+.hamburger{
+    background-color: transparent;
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+}
+.hamburger:focus{
+    outline: none;
+}
+.nav-header-navigation-links{
+    display: inline-block;
+    margin-right: 200px;
 }
 .nav-header-navigation{
     display: inline-block;
 }
 
 .header-navigarion{
-    width: 1322px;
+    width: 100%;
     height: 91px;
     display: flex;
     justify-content: space-between;
@@ -45,6 +61,7 @@ html,body{
     font-size: 14px;
     color: #ffffff;
     margin: 45px;
+    font-family: "bold700";
     
 }
 .become-member-button{
@@ -54,6 +71,7 @@ html,body{
     border-radius: 5px;
     border: none;
     color: #ffffff;
+    font-family: "bold700";
 }
 
 
@@ -66,23 +84,30 @@ html,body{
     font-size: 14px;
     margin-left: 10.5px;
     margin-right: 10.5px;
+    font-family: "semi600";
 }
 .header-image-absolute-text{
-    width: 1050px;
+    width: 100%;
     height: 566px;
     margin-left: auto;
     margin-right: auto;
+    
+
 }
 .header-h1-text{
     font-size: 58px;
     color: #ffffff;
     margin-top: 112px;
+    font-family: "extra800";
+    margin-left: 40px;
 }
 .header-p-text{
     color: #ffffff;
     font-size: 20px;
     margin-top: 35px;
     margin-bottom: 35px;
+    font-family: "med500";
+    margin-left: 40px;
 }
 .get-quote-now-button{
     width: 187px;
@@ -91,6 +116,9 @@ html,body{
     border-radius: 37px;
     border: none;
     margin-right: 5px;
+    color: #ffffff;
+    font-family: "med500";
+    margin-left: 40px;
 }
 .leatn-more-button{
     width: 157px;
@@ -99,9 +127,16 @@ html,body{
     border-radius: 37px;
     background: none;
     margin-left: 5px;
+    color: #ffffff;
+    font-family: "med500";
+    margin-left: 40px;
+    
     
     
 }
+
+
+
 
 
 
@@ -117,7 +152,7 @@ html,body{
     text-align: center;
 }
 .features-box{
-    width: 1050px;
+    width: 100%;
     height: 435.29px;
     margin-left: auto;
     margin-right: auto;
@@ -142,11 +177,15 @@ html,body{
 }
 .h1-card{
     color: #ffffff;
+    font-size: 16px;
     margin-top: 34px;
+    font-family: "bold700";
+    
 }
 .p-card{
     color: #ffffff;
     margin-top: 17px;
+    font-family: "med500";
 }
 
 
@@ -157,7 +196,7 @@ html,body{
     background-color: #8EC2F2;
 }
 .industry-box{
-    width: 1137px;
+    width: 100%;
     height: 772px;
     margin: auto;
 
@@ -167,11 +206,13 @@ html,body{
     font-size: 40px;
     color: #ffffff;
     padding-top: 112px;
+    font-family: "bold700";
 }
 .p-title-industry-desc{
     text-align: center;
     margin-top: 10px;
     color: #ffffff;
+    font-family: "med500";
 }
 .industry-card{
     display: flex;
@@ -194,11 +235,13 @@ html,body{
 .h1-name{
     font-size: 24px;
     color: #252B42;
+    font-family: "bold700";
 }
 .p-special{
     font-size: 14px;
     color: #737373;
     margin-top: 15px;
+    font-family: "semi600";
 }
 .star-icon{
     margin-top: 15px;
@@ -206,6 +249,7 @@ html,body{
 .p-industry-card-content{
     color: #737373;
     margin-top: 15px;
+    font-family: "med500";
 }
 .card-avatar{
     position: absolute;
@@ -220,30 +264,41 @@ html,body{
 
 .industry2{
     background-color: #252B42;
-    position: relative;
+    
+    width: 100%;
 }
 .industry2-box{
     width: 100%;
     height: 879px;
-    margin: auto;
+    position: relative;
+    
+    
 
 }
+
 .title-industry2{
     text-align: center;
     font-size: 40px;
     color: #ffffff;
     padding-top: 112px;
+    font-family: "bold700";
 }
 .p-title-industry2-desc{
     text-align: center;
     margin-top: 10px;
     color: #ffffff;
+    font-family: "med500";
 }
 .industry2-card{
     display: flex;
-    align-items: center;
     margin-top: 90px;
+    justify-content: space-around;
+    width: 100%;
+    
+    
+    
 }
+
 .industry-card-images{
     width: 331px;
     height: 452px;
@@ -251,19 +306,22 @@ html,body{
 }
 .description-image-industry{
     position: absolute;
-    bottom: 213px;
+    bottom: 155px;
     margin-left: 20px;
+    
 }
 
-.h1-name2{
+.h1-name2-industry{
     font-size: 14px;
     color: #ffffff;
+    font-family: "semi600";
 
 }
 .p-industry2-card-content{
     font-size: 20px;
     color: #ffffff;
     margin-top: 15px;
+    font-family: "med500";
 }
 .button-on-images-industry-card{
     width: 165px;
@@ -271,7 +329,9 @@ html,body{
     background: #23A6F0;
     border-radius: 37px;
     border: none;
+    color: #ffffff;
     margin-top: 15px;
+    font-family: "bold700";
 }
 
 
@@ -284,7 +344,8 @@ html,body{
 .pricing-box{
     width: 100%;
     height: 1155px;
-    margin: auto;
+   
+    
 
 }
 .title-pricing{
@@ -292,11 +353,13 @@ html,body{
     font-size: 40px;
     color: #ffffff;
     padding-top: 112px;
+    font-family: "bold700";
 }
 .p-title-pricing-desc{
     text-align: center;
     margin-top: 10px;
     color: #ffffff;
+    font-family: "med500";
 }
 
 .pricing-card{
@@ -318,20 +381,24 @@ html,body{
     font-size: 24px;
     color: #252B42;
     margin-top: 50px;
+    font-family: "bold700";
 }
 .p-pricing-card-content{
     font-size: 16px;
     color: #737373;
     margin-top: 35px;
+    font-family: "bold700";
 }
 .cost{
     font-size: 40px;
     color: #23A6F0;
     margin-top: 35px;
+    font-family: "bold700";
 }
 .p-month{
     font-size: 16px;
     color: #8EC2F2;
+    font-family: "bold700";
     
 }
 .button-on-images-price-card{
@@ -340,7 +407,9 @@ html,body{
     margin-top: 35px;
     background: #23A6F0;
     border-radius: 5px;
+    font-family: "bold700";
     border: none;
+    color: #ffffff;
     
 }
 .price-images{
@@ -413,12 +482,14 @@ html,body{
     padding-top: 90px;
     font-size: 16px;
     color: #252B42;
+    font-family: "bold700";
     
 }
 .h1-contact{
     margin-top: 5px;
     font-size: 40px;
     color: #252B42;
+    font-family: "bold700";
 }
 .button-submit{
     width: 224px;
@@ -428,6 +499,7 @@ html,body{
     border: none;
     margin-top: 40px;
     color: #ffffff;
+    font-family: "bold700";
 }
 .input-boxs{
     margin-top: 40px;
@@ -435,3 +507,126 @@ html,body{
 .choose-boxs{
     margin-top: 20px;
 }
+
+
+/*----------------colsuting-------------*/
+.colsuting{
+    width: 100%;
+    height: 142px;
+    
+}
+.colsuting-box{
+    width: 100%;
+    height: 142px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    transform: translateY(25%);
+    
+}
+.colsunting-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 62px;
+       
+}
+.h1-colsuting-card-text{
+    font-size: 24px;
+    font-family: "bold700";
+    
+}
+.p-colsuting-card-text{
+    font-size: 14px;
+    color: #737373;
+    margin-top: 5px;
+    font-family: "bold700";
+    
+}
+.contact-button{
+    width: 163px;
+    height: 52px;
+    background: #23A6F0;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    margin: 0 36.5px 0 36.5px;
+    font-family: "bold700";
+}
+
+
+/*----------------footer-------------*/
+.footer-box{
+    width: 100%;
+    height: 272px;
+    background-color: #252B42;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.a-card-footer{
+    text-decoration: none;
+    color: #ffffff;
+}
+.h1-card-name{
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: "bold700";
+}
+.li-card-footer{
+    margin: 5px 0px 5px 0px;
+}
+.a-card-footer{
+    font-size: 14px;
+    font-family: "semi600";
+}
+.img-footer{
+    display: inline-block;
+    vertical-align: middle;
+}
+.p-footer{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "semi600";
+    
+}
+.card-5-content{
+    margin: 5px 0px 5px 0px;
+
+}
+
+/*----------------end-------------*/
+.end{
+    width: 100%;
+    height: 74px;
+    
+    
+}
+.end-box{
+    width: 100%;
+    height: 74px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+.h1-end{
+    font-size: 14px;
+    color: #737373;
+    font-family: "semi600";
+}
+.soccial-icon{
+    margin: 0px 20px 0px 20px;
+}
+.nav-active{
+    transform: translateY(0%);
+}
+
